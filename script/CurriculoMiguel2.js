@@ -12,6 +12,6 @@ function changeImage(){
             element.value = element.replace("Miguel Zanona Krasner", "Agora melhorou, né?");
         }
         else {
-            element = element.replace("Agora melhorou, né?", "Miguel Zanona Krasner");
+            element.value = element.replace("Agora melhorou, né?", "Miguel Zanona Krasner");
         }
     }
