@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Dale, MiguÉÉÉÉÉl!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Curriculo3WSchoolazul.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script/CurriculoMiguel2.js"></script>
+<script src="script/validateForm.js"></script>
+
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img id="gifMiguel" onclick="changeImage()" onclick="changeName()" src="imagens/Miguel_set_2020.gif" style="width:100%" alt="Gif animado do Miguel (era pra estar aparecendo aqui)">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2 id="NomeNaImagem">Miguel Zanona Krasner</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Publicitário / programador em formação</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Porto Alegre, Brasil</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>miguelkras@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="tel:+55(51)99999.6666">+55 51 99999-6666</a></p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Habilidades</b></p>
+          <p>Corel Draw</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+			</div>
+          </div>
+		  
+		  <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+		  
+		  <p>Mídias sociais</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+		  
+          <p>Python</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:20%">20%</div>
+              </div>
+  
+          <p>Linguagem C</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:15%">15%</div>
+              </div>
+          
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:15%">15%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b></p>
+          <p>Português (nativo)</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+		  <p>Espanhol</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
+          </div>
+		  <p>Inglês</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+          </div>
+          <p>Francês</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <p>Hebraico</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:15%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <p class="w3-large formulario"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>FORMULÁRIO DE CONTATO</b></p>
+            <!--div -->
+            <form class="formulario" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                    <label for="fname">Nome:</label><br>
+                    <input class="formulario" type="text" id="fname" name="fname" placeholder="Quem é que tá falando?" title="Esse textinho engraçadinho some quando começa a escrever." maxlength="50" minlength="5"><br>
+                    <label for="fsubject">Assunto:</label><br>
+                    <input class="formulario" type="text" id="fsubject" name="fsubject" placeholder="Quero saber mais sobre..." title="Sim... Aqui também vai sumir o textinho cinza. Pode escrever."><br>
+                    <label for="femail">E-mail:</label><br>
+                    <input class="formulario" type="email" id="femail" name="femail" placeholder="teuemail@email.com" title="Pode colocar o e-mail que não vou guardar ele nem mandar propaganda depois"><br>
+                    
+                    <br>Gênero:<br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Masculino</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Faminino</label><br>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Outro</label><br>
+                    
+                    <br>Tecnologias:<br>
+                    <input type="checkbox" id="techhtml" name="techhtml" value="techhtml">
+                    <label for="techhtml"> HTML</label><br>
+                    <input type="checkbox" id="techcss" name="techcss" value="techcss">
+                    <label for="techcss"> CSS </label><br>
+                    <input type="checkbox" id="techjs" name="techjs" value="techjs">
+                    <label for="techjs"> JavaScript</label><br>
+                    <input type="checkbox" id="techdatabase" name="techdatabase" value="techdatabase">
+                    <label for="techdatabase"> Banco de dados</label><br>
+                    
+                    <br>Mensagem:<br>
+                    <textarea class="formulario" name="message" style="height:100px;width:100%" placeholder="Digite sua mensagem aqui"></textarea>
+                    
+                    <br><input class="formulario" type="submit" value="Enviar">
+                    <input class="formulario" type="reset" value="Limpar"><br>
+                </form>
+            <!--/div-->
+        </div>
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiências de Trabalho</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Publicitário - Assistente administrativo / ObservaPOA</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">Atual</span></h6>
+          <p>Elaboração de ilustrações com Corel Draw e Photoshop para publicações impressas e nas redes sociais do ObservaPOA. Elaboração de tabelas em Excel. Tarefas auxiliares de georreferenciamento</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Assistente administrativo / Escritório das Eleições dos CTs - 2019</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2019 - Dec 2019</h6>
+          <p>Recebimento e organização de documentos. Auxilio na organização de documentos. Mapeamento de locais de votação. Elaboração de planilhas e ferramentas de controle e organização. Contato com candidatos e com outros órgãos e entidades envolvidos.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Assistente administrativo / SMF - ATM - Callcenter</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2016 - Fev 2019</h6>
+          <p>Atendimento de questões relativas à SMF - POA</p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>MDN.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Muito obrigado, Fundação Mozilla!</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Vocês também, W3Schools! Vocês são sensacionais</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>IFRS</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - ...</h6>
+          <p>Graduação</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Escola de Biodanza de Pelotas (atual "Porto Alegre")</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Facilitador de Biodanza - Licenciado</p><br>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>PUCRS - Famecos</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bacharel em Comunicação Social - Publicidade e Propaganda</p><br>
+        </div>
+      </div>
+
+      <!-- Início Tabela -->
+      <div class="w3-container w3-card w3-white" style="overflow-x:auto">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-calendar fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tabela de Horários do Miguel</h2>
+
+        <table class="horarios">            
+            <tr class="horarios">
+                <th class="horarios">Horário:</th>
+                <th class="horarios">Segunda-feira</th>
+                <th class="horarios">Terça-feira</th>
+                <th class="horarios">Quarta-feira</th>
+                <th class="horarios">Quinta-feira</th>
+                <th class="horarios">Sexta-feira</th>
+            </tr>
+            <tr class="horarios"><td>Manhã</td><td>Trabalho</td><td>Trabalho</td><td>Trabalho</td><td>Trabalho</td><td>Trabalho</td></tr>
+            <tr class="horarios"><td>Tarde</td><td>Trabalho</td><td>Trabalho</td><td>Trabalho</td><td>Trabalho</td><td>Trabalho</td></tr>
+            <tr class="horarios"><td>Noite</td><td>Estudar</td><td>Estudar</td><td>Estudar</td><td>Estudar</td><td>Estudar</td></tr>
+            <tr class="horarios"><td>Socorro!</td><td>Dormindo #SQN</td><td>Com sono</td><td>Cama?</td><td>Já pra cama!</td><td>Cpu... Cpu...</td></tr>
+        </table>
+
+      <!-- Fim da Tabela -->
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>E eu também estou nas redes. 😉</p>
+  <a href="https://facebook.com/observapoa" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://instagram.com/obspoa" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <a href="https://twitter.com/observa_poa" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
