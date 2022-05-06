@@ -1,17 +1,21 @@
 function changeImage(){
-    let imagem = document.getElementById('gifMiguel');
+    imagem = document.getElementById('gifMiguel');
+    console.log(imagem.src);
         if (imagem.src.match("Animated")) {
             imagem.src = "imagens/George-Clooney-74101.gif";
         }
         else {
             imagem.src = "imagens/Animated GIF-downsized.gif";
         }
-    
-        let element = document.getElementById("NomeNaImagem");
-        if (element.value == "Miguel Zanona Krasner") {
-            element.value = element.replace("Miguel Zanona Krasner", "Agora melhorou, né?");
+
+        let element = document.getElementById('NomeNaImagem').firstChild.textContent;
+        // console.log(element);
+        // console.log(typeof(element));
+        // console.log(element == `Miguel Zanona Krasner`);
+        if (element == `Miguel Zanona Krasner`) {
+            document.getElementById('NomeNaImagem').firstChild.textContent = `Agora melhorou, né?`;        
         }
         else {
-            element.value = element.replace("Agora melhorou, né?", "Miguel Zanona Krasner");
+            document.getElementById('NomeNaImagem').firstChild.textContent = `Miguel Zanona Krasner`;
         }
     }
