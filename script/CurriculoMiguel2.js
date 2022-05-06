@@ -1,6 +1,6 @@
 function changeImage(){
     let imagem = document.getElementById('gifMiguel');
-        if (imagem.src.match("Animated GIF-downsized.gif")) {
+        if (imagem.src.match("Animated")) {
             imagem.src = "imagens/George-Clooney-74101.gif";
         }
         else {
